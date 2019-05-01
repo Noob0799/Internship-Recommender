@@ -1,0 +1,43 @@
+@media only screen and (max-width: 475px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 12.5px;
+  }
+  .container {
+    text-align: center;
+    padding: 0% 10%;
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  h1 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .container {
+    text-align: center;
+    padding: 0% 10%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .container {
+    text-align: center;
+    padding: 0% 10%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+hr {
+  border: 5px solid black;
+}

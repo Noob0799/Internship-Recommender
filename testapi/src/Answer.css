@@ -1,0 +1,38 @@
+.alternate {
+  font-size: 30px;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.details {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.detail {
+  font-size: 35px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.cname {
+  font-size: 30px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+  .alternate {
+    font-size: 20px;
+  }
+  .details {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .detail {
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  .cname {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
